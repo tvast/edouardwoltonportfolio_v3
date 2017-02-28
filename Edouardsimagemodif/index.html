@@ -1,0 +1,140 @@
+<!doctype html>
+<html class="no-js" lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>Edouard Wolton | Artiste</title>
+
+  <!-- CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/styles.css" media="all">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="css/fragments.css" />
+  <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <!-- Material Design Icons  -->
+    <link rel="stylesheet" href="materialize/css/materialize.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link href="https://fonts.googleapis.com/css?family=Nosifer" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+  <!-- <script>document.documentElement.className = 'js';</script> -->
+  <style type="text/css">
+    #myvid {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+video {
+  background-color: black;
+  background-image: /* our video */;
+  background-position: center center;
+  background-size: contain;
+}
+
+
+@media (min-aspect-ratio: 16/9) {
+  #myvid {
+    width: 100%;
+    height: auto; /* actually taller than viewport */
+  }
+}
+@media (max-aspect-ratio: 16/9) {
+  #myvid {
+    width: auto; /* actually wider than viewport */
+    height: 100%;
+  }
+}
+.centerver {
+ position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    opacity: 0.8;
+}
+
+  </style>
+
+</head>
+<body class="loading">
+
+  <main>
+<!-- <div style="color:red"><pre>                          ░░0▄▄▄▄▄▄▄▄▄▄▄▄▄▄▒░░
+                          1░▒▄▄███▀▀░░░░    1░░░░▀▀▀▓▓▄▄▄▓
+                      ░0▄▄██▀▀░                       0░▀▀█▓▄1
+                  ░▒▄███▀░0                                ░▀▀█▄▓
+                ▄▓██▀░                                         ▀█▓▄
+            ░▒▄█▀▀░                                              ░▀█▄
+           ▒██▀░                                                   ░█▌0
+         ▒▓█▀░                                                       ▀█▄
+       ░▄█▀░                                                          ░█▌
+       ▄█▓                                                             ▒█▄
+      0█                                                                ▓█1
+     ▒█▌                                                                0█▌
+     ▒█1                                                         0▄      █▌
+     ▓▌░     ▄0                                                 0▓█▓     █▌
+     ▐▌░    1█░                                                 ▒██▓     █▓
+     ▒█▓     █0       ▄▄▓██▓1                                  ░▓█▌    1█▌
+     1█▌    ▒█▌   ░▄██████████0                                1██   ░▄█▌
+      ░█▌▓   ▓█1 ▒▓████████████▌▓                             ░1█0  ▒██▌
+       ░██   ░█▌ ▓███████████████0                             █▌ ░▄██▌
+        ░██▄▓░1█ █████████████████▌                            █▌ ▓██▀
+         ░▀██1▒█ ▓█████████████████▌▓           ░0▄▄▄▄▄▄▄▄▄▒▓ 1█████0      ░▒0
+           ▒████0░███████████████████▄    ░▒▄▄████████████████ ████      1▄▀░██1
+   1▒0      ░▀█▌  1▀█████████████████▌░  1▒▓████████████████▀▓ ▒██     ░▄▀░  ▒█▌
+ 1█▀▀█▌      0█▌    ░▀█████████████▀░      ░░▀▀█████████▀▀░    ▒█▌   0▄█▓   ▒█▌
+  ▌░ ░▀█▄1    1▌       ░▀██████▀▀    ░1▄▄▄0      ░▀▀▀░░       ░0█▓░▄▓█▀░    1█▌
+  █0   ░░▀▓▄▓ ░▓▓          ░░░     ░▄██████▌▓                ▒███▓▀▀░        1█▌
+  ▀█       ░▀▀▄▓█0                ▒██████████1            0▄███▀░      ░░░   ▒█▌
+   ▀█1         ░▀▀█▄▄             ▓██████████▌1       ░▄▄███▀░     ░▄▄▓█▀▀▓▄▄█▌░
+   1█▌0▓▒▒▄▄▄▄▓   1░▀▀█▄▄▒1       ▀██████████▌     ▒▄██████▌  ░0▄▄█▀▀░
+     ▀██▀▀▀░░▀▀▓▓▄▄0   ▒████▄▄     ░▀▀▀▀▀▀▀▀1   ░▄████▓██▓█▄▄██▀▀░
+                1░▀▀▓▄▄▄█▌1█▌██▄▄            ░0▄███▌1███▓███▀░
+                     ░░▀██░▀███0█▀█▄▄▄▄▄▄▄▄▄██▀█▌ ▓████1▓█▓
+                        ▀█▓ ▀███▓1█▓ ▓▌ 0█▌  ▌ 0█ ▄██▀░▓█▓
+                         █▌  ▒██▄█▌  ▓▌  ▓▌ 0▓░ ███▀░▒▓██▄▒
+                   ░▒▄0▀▀▀█▌  1▀██▌▄ █▓ ░1▌ ░▓███▀░░▄█▓  ░░▀▀▄▄▄▄▄▀0▄0
+           ░0▀▀▀▀1▀▀░░    1▀█▄   ░▀███▓▓███▓▀▀▀░ ░▄██▌▓░             █▒
+          0▓▄          ░1▄▓█▀▀▓▄0    1░░░░    ░0▄█▀░░░▀▀▓▄▄           █
+            ░▓▄▓    ░▄▓▀▀       ░▀▌▄▓░    ░░▄▄▓▀         0░▀██▒   ░▒░█
+              ▀▌0░1▄▓   █░▒▒░░░░░ ░░░░░░░░░░░░░░░░░░░░░           ░░░░░░░░░░░
+         ░▒▒███ ▒       ▒░█████▒ ░█████████████░▒░░████▒          ▒███████░░░
+          ▒░░░███▒      ▒█████░ ░█████████████▒▒████████▒         ░███████░░▒
+          ███████       ▒████░ ▒███████████████▒ ░███████▒       ░██████░░░▒
+          ███████       ▒███░▒ ░░░░░░░░░░░░█████░ ░███████▒     ▒██████░░░▒
+          ███████       ▒██░░░▒▒         ▒███████░ ░███████▒    ██████░░░▒
+          ███████▒      ▒█░░░░░▒       ░███████░▒   ▒███████▒  ░██████░░▒
+          ░██████▒   ▒▒▒▒░░░░░░▒    ▒░███████░▒      ▒███████▒▒█████░░░▒
+          ░█████████████░░░░░░░▒  ▒░███████░▒         ▒██████░░████░░░▒
+          ░███████░░░░░░░░░░░░▒ ▒████████░▒            ▒██████████░░░▒
+          ▒██████░       ░░░░ ▒█████████████░░░░░░░▒▒▒  ░█████████░░▒
+          ▒██████░       ░░░▒▒ ░███████████░░░░░░░▒▒▒    ░███████░░▒░
+           ███████       ░░▒▒▒ ▒███████░░░░░░░░░▒▒▒▒      ███████░▒
+  HACKERZVOICE ░▒▒       ▒▒▒▒▒                            ▒█████░░▒             ┬
+  ▓▓▀▀▀▀▀█▓▓▓ presents ▓▓▓█▄▄▄▄▄▄▓▓▓▓▓▓▓▓▓▓▓╡░░░▒▓▓██╞════╡ ▒░░░░░▒ ╞</pre></div> -->
+
+   
+<div class="row center">
+        <a href="oeuvre.html" class="centerver btn-large waves-effect waves-light black">Bienvenue sur le site d'Edouard Wolton</a>
+      </div>
+  <video id="myvid" autoplay loop controls>
+  <source src="vid/edouardmonte.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+  </video>
+
+
+
+</main>
+<!-- Start horizontal scroll -->
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+
+
+
+
+</body>
+</html>

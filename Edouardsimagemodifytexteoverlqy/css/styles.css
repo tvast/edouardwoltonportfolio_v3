@@ -1,0 +1,95 @@
+/*#logo-container {
+  font-family: 'Poiret One', cursive;
+}
+
+.menu {
+  font-family: 'Poiret One', cursive;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-image: url('../img/header.jpg');
+  text-align: center;
+  color: white;
+}
+header .header-content {
+  position: relative;
+  text-align: center;
+  padding: 100px 15px 100px;
+  width: 100%;
+}
+header .header-content .header-content-inner h1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 30px;
+}
+header .header-content .header-content-inner hr {
+  margin: 30px auto;
+}
+header .header-content .header-content-inner p {
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+*/
+
+.overlay {
+
+  width : 30%;  
+  /*top: -36%;
+  left:-18%%;*/
+  z-index:12;
+  /*padding:  : 10%;*/
+  /*position:absolute;*/
+  -ms-transform: translate(70%, 50%); /* IE 9 */
+  -webkit-transform: translate(70%, 50%); /* Safari */
+  transform: translate(70%, 50%);
+/*  opacity: 0.5;
+  filter: alpha(opacity=70); /* For IE8 and earlier */*/
+
+}
+
+.player {
+  float: right;
+
+  -ms-transform: translate(50px, 100px); /* IE 9 */
+  -webkit-transform: translate(50px, 100px); /* Safari */
+  transform: translate(-50%, 50%);
+  color :#6fc8b7;
+}
+
+.overlayontent {
+  width : 40%;  
+  top: -20%;
+  left:-18%%;
+  z-index:12;
+  position:absolute;
+  -ms-transform: translate(50px, 100px); /* IE 9 */
+  -webkit-transform: translate(50px, 100px); /* Safari */
+  transform: translate(20%, 20%);
+}
+
+.overlayTitle  {
+  background-color: white;
+  width : 80%;  
+
+  z-index:12;
+  opacity: 0.7;
+  filter: alpha(opacity=70);}
+
+  /*title*/
+
+  .dirdam {
+    font-size: 5em;
+  }
